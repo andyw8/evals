@@ -6,6 +6,7 @@ source "https://rubygems.org"
 gemspec
 
 gem "debug"
+gem "dotenv"
 gem "irb"
 gem "minitest"
 gem "rake"

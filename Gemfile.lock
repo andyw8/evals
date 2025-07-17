@@ -2,15 +2,20 @@ PATH
   remote: .
   specs:
     evals (0.1.0)
+      anthropic (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    anthropic (1.1.1)
+      connection_pool
     ast (2.4.3)
+    connection_pool (2.5.3)
     date (3.4.1)
     debug (1.11.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dotenv (3.1.8)
     erb (5.0.2)
     io-console (0.8.1)
     irb (1.15.2)
@@ -83,6 +88,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
+  dotenv
   evals!
   irb
   minitest
