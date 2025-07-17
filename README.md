@@ -1,6 +1,8 @@
 # Evals
 
-A library for LLM evals
+A Ruby library for evaluating LLM responses.
+
+Based on the Prompt Evaluation example in the [Anthropic Skilljar course](https://anthropic.skilljar.com/claude-with-the-anthropic-api).
 
 ## Installation
 
@@ -16,9 +18,13 @@ If bundler is not being used to manage dependencies, install the gem by executin
 gem install evals
 ```
 
+## Configuration
+
+Copy `.env.example` to `.env` and add your Anthropic API key.
+
 ## Usage
 
-TODO: Write usage instructions here
+See [examples/demo.rb](examples/demo.rb) for an example.
 
 ## Development
 
